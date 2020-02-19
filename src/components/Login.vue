@@ -18,13 +18,15 @@
           <md-switch v-model="hasMessages"></md-switch>
           <md-button class="md-primary" type="submit">Login</md-button>
           <a href="/register">Register</a>
-
+          <md-progress-spinner md-mode="indeterminate" v-if="isLoading"></md-progress-spinner>
         </md-card-content>
       </md-card>
     </form>
   </div>
 </template>
 <script>
+import { mapGetters } from 'vuex';
+
 export default {
   data() {
     return {
@@ -38,6 +40,7 @@ export default {
     };
   },
   computed: {
+    ...mapGetters(['isLoading']),
     messageClass() {
       return {
         'md-invalid': this.hasMessages,
@@ -61,3 +64,8 @@ export default {
 
 };
 </script>
+<style scoped>
+  .md-progress-bar {
+    margin: 24px;
+  }
+</style>

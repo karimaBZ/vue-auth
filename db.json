@@ -1,43 +1,8 @@
 {
   "users": [
     {
-      "email": "user@user.com",
-      "password": "$2a$10$cDinDG4ixRpO06Z.fdwhJeCv3wDtIfNu0B2xgJyFQWnV7Skz0LZyi",
-      "name": "user",
-      "is_admin": true,
-      "id": 1
-    },
-    {
-      "email": "bb@yha.b",
-      "password": "$2a$10$lvbK8t0n/btgASnr5BFLNuRX9j7svv6F2tSIEcshMR9QzbGFEPORG",
-      "name": "test2",
-      "is_admin": true,
-      "id": 2
-    },
-    {
-      "email": "benzineb@yahoo.fr",
-      "password": "$2a$10$5K0FR3JJrjhHsT0rO5g92.9hRcR8X2YaLebJ229TtpznGzdDSWSnS",
-      "name": "karima",
-      "is_admin": true,
-      "id": 3
-    },
-    {
-      "email": "karimabenzineb@yahoo.fr",
-      "password": "$2a$10$OKJ9j5Mz1qyqTTqJSms7O.hYzqoRHmo1/6gwmvEL.8/n10fLf2aD6",
-      "name": "karima",
-      "is_admin": true,
-      "id": 4
-    },
-    {
-      "email": "karima@yahoo.fr",
-      "password": "$2a$10$n1cpXr7wvkDF7cyzAPpyP.vmwRCQ7C2FxPpEPPuWXcOwVO.Zm9qIa",
-      "name": "karima",
-      "is_admin": null,
-      "id": 5
-    },
-    {
       "email": "benzinebkarima@yahoo.fr",
-      "password": "$2a$10$VmfTB5RY5lc1k.QcfawF/uC0v1QKubio6Jz54Him35M0ieVFxkFf6",
+      "password": "thkt1994",
       "name": "karima",
       "is_admin": true,
       "id": 6
